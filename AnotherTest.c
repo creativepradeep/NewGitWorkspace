@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main ()
 {
-	printf("Adding some lines\n");
+	printf("This is another test\n");
 	return 0;
 }
