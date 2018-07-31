@@ -7,3 +7,10 @@ int main ()
 	}
 	return 0;
 }
+
+void doWork ()
+{
+	while (!s_finished) {
+		printf("Working..\n");
+	}
+}
