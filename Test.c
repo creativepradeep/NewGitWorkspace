@@ -2,8 +2,9 @@
 int main ()
 {
 	printf("Adding some lines..adding some more text and resolving conflict\n");
-	for (int i = 0; i < 20; i++) {
+	for (int i = 0; i < 20; ) {
 		printf("i = %d\n", i);
+		i++;
 	}
 	return 0;
 }
